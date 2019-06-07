@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder - Survey</title>
+
+    <!-- link jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- link font awesome style sheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h2>Survey Questions</h2>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h4><strong>About You</strong></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h6>Name (Required)</h6>
+                <input type="text" id="name" class="form-control" required>
+            
+                <h6>Link to Photo Image (Required)</h6>
+                <input type="text" id="image" class="form-control" required>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h4><strong>Question 1</strong></h4>
+                <h6>Batman is a superhero.</h6>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                        <span class="selection" id="question1">Choices</span><span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu" role="menu">
+                        <a class="dropdown-item">1 (Strongly Disagree)</a>
+                        <a class="dropdown-item">2</a>
+                        <a class="dropdown-item">3</a>
+                        <a class="dropdown-item">4</a>
+                        <a class="dropdown-item">5 (Strongly Agree)</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h4><strong>Question 2</strong></h4>
+                <h6>Blue is an awesome color no matter the shade.</h6>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                        <span class="selection" id="question2">Choices</span><span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu" role="menu">
+                        <a class="dropdown-item">1 (Strongly Disagree)</a>
+                        <a class="dropdown-item">2</a>
+                        <a class="dropdown-item">3</a>
+                        <a class="dropdown-item">4</a>
+                        <a class="dropdown-item">5 (Strongly Agree)</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h4><strong>Question 3</strong></h4>
+                <h6>Tequila consumption is dangerous.</h6>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                        <span class="selection" id="question3">Choices</span><span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu" role="menu">
+                        <a class="dropdown-item">1 (Strongly Disagree)</a>
+                        <a class="dropdown-item">2</a>
+                        <a class="dropdown-item">3</a>
+                        <a class="dropdown-item">4</a>
+                        <a class="dropdown-item">5 (Strongly Agree)</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h4><strong>Question 4</strong></h4>
+                <h6>Steak should only be eaten if it is rare to medium-rare.</h6>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                        <span class="selection" id="question4">Choices</span><span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu" role="menu">
+                        <a class="dropdown-item">1 (Strongly Disagree)</a>
+                        <a class="dropdown-item">2</a>
+                        <a class="dropdown-item">3</a>
+                        <a class="dropdown-item">4</a>
+                        <a class="dropdown-item">5 (Strongly Agree)</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h4><strong>Question 5</strong></h4>
+                <h6>Luka Doncic should be the unanimous 2018-2019 NBA Rookie of the Year.</h6>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                        <span class="selection" id="question5">Choices</span><span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu" role="menu">
+                        <a class="dropdown-item">1 (Strongly Disagree)</a>
+                        <a class="dropdown-item">2</a>
+                        <a class="dropdown-item">3</a>
+                        <a class="dropdown-item">4</a>
+                        <a class="dropdown-item">5 (Strongly Agree)</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h4><strong>Question 6</strong></h4>
+                <h6>Tony Romo is overrated.</h6>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                        <span class="selection" id="question6">Choices</span><span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu" role="menu">
+                        <a class="dropdown-item">1 (Strongly Disagree)</a>
+                        <a class="dropdown-item">2</a>
+                        <a class="dropdown-item">3</a>
+                        <a class="dropdown-item">4</a>
+                        <a class="dropdown-item">5 (Strongly Agree)</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h4><strong>Question 7</strong></h4>
+                <h6>Jason Garrett is the worse head coach in Dallas Cowboys history.</h6>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                        <span class="selection" id="question7">Choices</span><span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu" role="menu">
+                        <a class="dropdown-item">1 (Strongly Disagree)</a>
+                        <a class="dropdown-item">2</a>
+                        <a class="dropdown-item">3</a>
+                        <a class="dropdown-item">4</a>
+                        <a class="dropdown-item">5 (Strongly Agree)</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h4><strong>Question 8</strong></h4>
+                <h6>Thanos was right.</h6>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                        <span class="selection" id="question8">Choices</span><span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu" role="menu">
+                        <a class="dropdown-item">1 (Strongly Disagree)</a>
+                        <a class="dropdown-item">2</a>
+                        <a class="dropdown-item">3</a>
+                        <a class="dropdown-item">4</a>
+                        <a class="dropdown-item">5 (Strongly Agree)</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h4><strong>Question 9</strong></h4>
+                <h6>Killmonger was right.</h6>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                        <span class="selection" id="question9">Choices</span><span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu" role="menu">
+                        <a class="dropdown-item">1 (Strongly Disagree)</a>
+                        <a class="dropdown-item">2</a>
+                        <a class="dropdown-item">3</a>
+                        <a class="dropdown-item">4</a>
+                        <a class="dropdown-item">5 (Strongly Agree)</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h4><strong>Question 10</strong></h4>
+                <h6>James Harden's play style is an insult to the game of basketball.</h6>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                        <span class="selection" id="question10">Choices</span><span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu" role="menu">
+                        <a class="dropdown-item">1 (Strongly Disagree)</a>
+                        <a class="dropdown-item">2</a>
+                        <a class="dropdown-item">3</a>
+                        <a class="dropdown-item">4</a>
+                        <a class="dropdown-item">5 (Strongly Agree)</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <button type="submit" class="btn btn-success btn-lg btn-block" id="submit" data-toggle="modal" data-target="#resultModal"><i class="far fa-check-square" aria-hidden="true"></i>
+                    Submit</button>
+            </div>
+
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="ModalLabel">Best Match</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body" id="modal-results">
+                    ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <script>
+        
+
+        $(".dropdown-menu a").click(function(){
+
+            $(this).parents(".btn-group").find('.selection').text($(this).text());
+            $(this).parents(".btn-group").find('.selection').val($(this).text());
+
+        });
+
+        $("#submit").click(function(event){
+            
+            event.preventDefault();
+
+            var myData = {
+                name: $("#name").val(),
+                photo: $("#image").val(),
+                responses: [
+                    $("#question1").val().charAt(0),
+                    $("#question2").val().charAt(0),
+                    $("#question3").val().charAt(0),
+                    $("#question4").val().charAt(0),
+                    $("#question5").val().charAt(0),
+                    $("#question6").val().charAt(0),
+                    $("#question7").val().charAt(0),
+                    $("#question8").val().charAt(0),
+                    $("#question9").val().charAt(0),
+                    $("#question10").val().charAt(0)
+                ]
+            };
+
+           
+            $.post("/api/friends", myData, function(data) {
+                
+                $("#modal-results").html(data.name)
+                                
+            });
+
+            $("#question1").html("Choices");
+            $("#question2").html("Choices");
+            $("#question3").html("Choices");
+            $("#question4").html("Choices");
+            $("#question5").html("Choices");
+            $("#question6").html("Choices");
+            $("#question7").html("Choices");
+            $("#question8").html("Choices");
+            $("#question9").html("Choices");
+            $("#question10").html("Choices");
+
+        });
+
+        
+
+
+    </script>
+
+</body>
+</html>
