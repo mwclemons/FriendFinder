@@ -237,7 +237,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                     </div>
-                    <div class="modal-body" id="modal-results">
+                    <div class="modal-body text-center" id="modal-results">
                     ...
                     </div>
                     <div class="modal-footer">
@@ -288,7 +288,7 @@
            
             $.post("/api/friends", myData, function(data) {
                 
-                $("#modal-results").html(data.name + "<br>" + data.photo)
+                $("#modal-results").html("<h6>"+data.name + "</h6><br> <img src='"+data.photo+"' height='350px'>")
                                 
             });
 

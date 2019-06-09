@@ -1,7 +1,7 @@
 var friendArray = [
     {
         "name":"Ahmed",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://as01.epimg.net/en/imagenes/2018/08/03/football/1533321870_048181_1533322047_noticia_normal.jpg",
         "responses":[
             5,
             1,
@@ -17,7 +17,7 @@ var friendArray = [
     },
     {
         "name":"Dirk",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Fthesmokingcuban.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1037465144.jpeg&c=sc&w=850&h=560",
         "responses":[
             5,
             1,
@@ -33,7 +33,7 @@ var friendArray = [
     },
     {
         "name":"Luka",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://cdn.vox-cdn.com/thumbor/auotno9Wgp7aqqwj7JIBPRTIvdc=/0x0:3461x2306/920x613/filters:focal(1096x413:1648x965):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/62834849/usa_today_11980119.0.jpg",
         "responses":[
             4,
             3,
@@ -49,7 +49,7 @@ var friendArray = [
     },
     {
         "name":"Mark",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://www.wwe.com/f/styles/wwe_large/public/rd-talent/Bio/Mark_Henry_bio15.png",
         "responses":[
             3,
             1,
@@ -65,7 +65,7 @@ var friendArray = [
     },
     {
         "name":"Emily",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/model-emily-ratajkowski-attends-harpers-bazaar-celebrates-news-photo-601725244-1549493291.jpg?crop=1.00xw:0.334xh;0,0&resize=980:*",
         "responses":[
             5,
             2,
@@ -81,7 +81,7 @@ var friendArray = [
     },
     {
         "name":"Sara",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpeopledotcom.files.wordpress.com%2F2018%2F10%2Fsara-sampaio-4.jpg%3Fcrop%3D0px%252C0px%252C2000px%252C1050px%26resize%3D1200%252C630&w=500&h=335&c=sc&poi=face&q=85",
         "responses":[
             1,
             2,
@@ -97,7 +97,7 @@ var friendArray = [
     },
     {
         "name":"Carl",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://media1.popsugar-assets.com/files/thumbor/Tl4k96C15mZyHvyh0U4-uHmVPIQ/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/10/26/083/n/1922283/tmp_8sOSpl_22a1d61ee6667551_TWD_705_GP_0620_0084-RT.jpg",
         "responses":[
             5,
             1,
