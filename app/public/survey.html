@@ -216,9 +216,20 @@
             </div>
 
         </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                    <footer class="footer">
+                        <div class="container">
+                            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/mwclemons/FriendFinder">GitHub Repo</a></p>
+                        </div>
+                    </footer>
+            </div>
+        </div>
+       
         <!-- Modal -->
         <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
+            <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                     <h5 class="modal-title" id="ModalLabel">Best Match</h5>
@@ -277,7 +288,7 @@
            
             $.post("/api/friends", myData, function(data) {
                 
-                $("#modal-results").html(data.name)
+                $("#modal-results").html(data.name + "<br>" + data.photo)
                                 
             });
 
@@ -291,6 +302,8 @@
             $("#question8").html("Choices");
             $("#question9").html("Choices");
             $("#question10").html("Choices");
+            $("#name").val("")
+            $("#image").val("")
 
         });
 
